@@ -1,257 +1,88 @@
 # Agency 49
 
-**Engineering useful software — Web, AI & Automation.**
+### Engineering useful software — Web, AI & Automation.
 
-Agency 49 is a UK-based software and engineering studio building custom applications, AI systems, automation, backend platforms, and cloud infrastructure.
+UK-based software and engineering studio building custom applications, AI systems, automation, backend platforms, and cloud infrastructure.
 
 [LinkedIn](https://www.linkedin.com/company/agency-49) · [Instagram](https://www.instagram.com/the.agency49/) · [Facebook](https://www.facebook.com/the.agency49/) · [Email](mailto:theagency049@gmail.com)
 
 ---
 
-## About
-
-Agency 49 builds software around real business problems.
-
-We work across the full product lifecycle — from early architecture and prototyping through development, testing, deployment, and production support.
-
-Our work includes:
-
-- Custom web applications
-- AI integrations and LLM systems
-- RAG and knowledge systems
-- Business and workflow automation
-- APIs and backend platforms
-- Internal tools and operational software
-- Cloud infrastructure and DevOps
-
-The focus is simple: build software that is useful, reliable, maintainable, and ready for production.
-
----
-
 ## What We Build
 
-### Web Applications
+### 🌐 Web Applications
+SaaS products, internal tools, client portals, dashboards, and custom business software.
 
-Custom applications built for real workflows.
+### 🧠 AI Systems
+LLM integrations, RAG, AI assistants, voice systems, structured workflows, and trust layers.
 
-- SaaS products
-- Client portals
-- Internal tools
-- Dashboards
-- Customer-facing applications
-- Interactive web experiences
-- Custom business software
+### ⚡ Automation
+Business process automation, API integrations, data workflows, CI/CD, and DevSecOps.
 
-### AI Systems
-
-Applied AI designed for production use.
-
-- LLM integrations
-- AI assistants
-- RAG systems
-- Voice assistants
-- Structured AI workflows
-- Knowledge retrieval
-- Verification and trust layers
-
-### Automation
-
-Software that reduces repetitive work and connects systems.
-
-- Business process automation
-- API integrations
-- Data workflows
-- CI/CD pipelines
-- DevSecOps workflows
-- Internal operations tooling
-
-### Backend & Cloud
-
-The infrastructure behind reliable software.
-
-- REST APIs
-- FastAPI and Node.js backends
-- PostgreSQL
-- Authentication
-- Multi-tenant systems
-- AWS infrastructure
-- Docker
-- Terraform
-- Monitoring and deployment
+### ☁️ Backend & Cloud
+FastAPI, Node.js, PostgreSQL, AWS, Docker, Terraform, monitoring, and deployment.
 
 ---
 
 ## Selected Work
 
 ### Recepto — AI Receptionist
+Multi-tenant AI receptionist with deterministic business logic, RAG, booking workflows, and structured AI orchestration.
 
-A multi-tenant AI receptionist platform designed for customer conversations, bookings, routing, and business-specific knowledge.
-
-The architecture keeps business-critical operations deterministic while using language models for natural-language understanding and response generation.
-
-**Stack:**  
-Python · FastAPI · LangGraph · Gemini · Groq · RAG · Pydantic · PostgreSQL
-
-**Engineering focus:**
-
-- Multi-tenant architecture
-- Deterministic business logic
-- Structured AI workflows
-- Semantic retrieval
-- Validation and fallback handling
-- Config-driven onboarding
-
----
+`Python` `FastAPI` `LangGraph` `RAG` `PostgreSQL`
 
 ### Floorplan Takeoff
+Browser-based estimating software for trades with plan calibration, measurement tools, pricing, and proposal generation.
 
-Browser-based visual estimating software for trade businesses.
-
-Users can upload a drawing, calibrate scale, measure areas and lengths, apply pricing logic, and produce client-ready estimates.
-
-**Stack:**  
-React · TypeScript · Konva · PDF.js · Zustand · IndexedDB · Vitest · Playwright
-
-**Engineering focus:**
-
-- Interactive canvas tooling
-- Measurement and pricing engines
-- Multiple trade workflows
-- Local-first persistence
-- Automated testing
-- PDF generation
-
----
+`React` `TypeScript` `Konva` `PDF.js` `Playwright`
 
 ### Veridian Turf
+Interactive estimating and quoting platform with canvas measurement, instant pricing, and configurable admin tooling.
 
-Interactive estimating and quoting software built around artificial-grass installation workflows.
-
-The platform combines a commercial website with a browser-based measurement and pricing experience.
-
-**Stack:**  
-React · Vite · Tailwind CSS · Framer Motion
-
-**Engineering focus:**
-
-- 2D canvas measurement
-- Instant estimate generation
-- Multi-step quote flows
-- Config-driven content
-- Admin controls
-- Theme management
-
----
+`React` `Vite` `Tailwind CSS`
 
 ### Travelways International
+Modern travel platform with interactive 3D experiences, custom CMS, SEO tooling, and automated publishing.
 
-Modern travel platform combining interactive design with custom content-management and publishing tools.
-
-**Stack:**  
-Next.js · TypeScript · Three.js · Framer Motion · Vercel
-
-**Engineering focus:**
-
-- Interactive 3D experiences
-- Custom CMS
-- SEO tooling
-- Content publishing workflows
-- GitHub-backed deployment
-- Responsive frontend architecture
+`Next.js` `TypeScript` `Three.js` `Vercel`
 
 ---
 
-## Technology
+## Tech
 
-### Frontend
+**Frontend**  
+React · Next.js · TypeScript · Tailwind CSS · Framer Motion · Three.js
 
-React · Next.js · TypeScript · JavaScript · Tailwind CSS · Framer Motion · Three.js · Konva
-
-### Backend
-
+**Backend**  
 Python · FastAPI · Node.js · PostgreSQL · REST APIs
 
-### AI
+**AI**  
+LLMs · RAG · LangGraph · Gemini · Groq · OpenAI
 
-LLMs · RAG · LangGraph · Gemini · Groq · OpenAI · Pydantic
-
-### Cloud & DevOps
-
-AWS · Docker · Terraform · GitHub Actions · Vercel · Linux
-
-### Testing & Quality
-
-Vitest · Playwright · Automated Testing · Security Scanning · CI/CD
+**Cloud & DevOps**  
+AWS · Docker · Terraform · GitHub Actions · Vercel
 
 ---
 
-## Our Approach to AI
+## How We Think
 
-We do not treat the language model as the entire application.
+> Build around the problem, not the trend.
 
-Where reliability matters, critical business logic remains deterministic and testable.
-
-AI is used where it performs best:
-
-- Understanding natural language
-- Retrieving relevant information
-- Assisting users
-- Generating useful responses
-- Structuring unstructured input
-
-Operations such as pricing, permissions, validation, availability, and workflow decisions can remain under conventional software control.
-
-> The objective is practical AI that can operate inside real software systems — not just impressive demos.
-
----
-
-## How We Work
-
-### 01 — Discover
-
-Understand the business problem, users, constraints, and desired outcome.
-
-### 02 — Design
-
-Define the architecture, workflows, interfaces, and technical approach.
-
-### 03 — Build
-
-Develop iteratively with automated testing, maintainable architecture, and regular review.
-
-### 04 — Deploy
-
-Ship to production with deployment, monitoring, documentation, and handover.
-
----
-
-## Engineering Principles
-
-- Solve the problem before choosing the technology
-- Keep critical logic testable
-- Design clear failure paths
+- Keep critical logic deterministic and testable
+- Use AI where it adds real value
 - Automate repetitive work
-- Build for maintainability
-- Avoid unnecessary complexity
+- Design for maintainability
 - Treat production readiness as part of development
 
 ---
 
 ## Work With Agency 49
 
-We are interested in projects involving:
+We work on:
 
-- Web applications
-- Custom software
-- AI integrations
-- RAG systems
-- AI assistants
-- Business automation
-- Internal tools
-- Backend systems
-- Cloud and DevOps
+**Web Applications** · **Custom Software** · **AI Integrations** · **RAG Systems** · **Automation** · **APIs** · **Backend Systems** · **Cloud & DevOps**
 
-If your problem does not fit neatly into an off-the-shelf product, that is usually where custom engineering becomes valuable.
+If your problem does not fit neatly into an off-the-shelf product, that is where custom engineering usually becomes valuable.
 
 ---
 
@@ -265,8 +96,5 @@ If your problem does not fit neatly into an off-the-shelf product, that is usual
 
 ---
 
-## Agency 49
-
+### Agency 49
 **Web Applications · AI Systems · Automation · Backend & Cloud**
-
-*Engineering useful software from idea to production.*
